@@ -9,10 +9,15 @@
   <title>Gabriela Rabelo</title>
 
   <!-- Bootstrap -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Unica+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Shadows+Into+Light&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cute+Font|Handlee|Parisienne&display=swap" rel="stylesheet">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,14 +25,102 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+  <script type="text/javascript">
+  
+
+  $(function() {
+  $(window).on("scroll", function() {
+    if($(window).scrollTop() > 380) {
+      $("#menu").addClass("menu-d");
+    } else {
+      $("#menu").removeClass("menu-d");
+    }
+  });
+});
+
+
+</script>
+
+
+
 </head>
 
 <body>
+  <div id="menu">
+    
+  </div>
   <div class="header">
     <div class="header__title">
-      <div class="header__title--name"> gabriela rabelo </div> <div class="header__title--dev">Desenvolvedora Front-End</div>
+      <div class="header__title--name"> gabriela rabelo </div>
+      <div class="header__title--dev">Desenvolvedora Front-End</div>
     </div>
   </div>
+
+  <div class="container">
+    <div class="row flex">
+      <div class="col-sm-4 flex__col">
+
+        <div class="body__title">EUZINHA</div>
+        <div>
+          Gabriela Rabelo, 19 anos, paulista, graduanda em Sistemas de Informação, mãe de 4 gatos e apaixonada por
+          tecnologia e pelo
+          mundo nerd! (posso até dar umas indicações de uns animes,
+          e com muito orgulho gosto de dizer que assisti <span style="color: red; font-weight: bold">Vingadores</span>
+          sem pegar sequer um spoiler: regalias de uma pré-estreia)
+        </div>
+        <div class="body__subtitle"> eu modelando para meu proprio site já que as agencias de modelo não percebem meu
+          brilho >>>
+        </div>
+
+      </div>
+      <div class="col-sm-4 imagem">
+        <img src="img/gabrielarabelo.gif">
+      </div>
+
+      <div class="col-sm-4 flex__col">
+        <div class="body__title"> O QUE EU FAÇO?</div>
+        <div>Hoje sou Desenvolvedora Jr, focada 100% em Front-End, trabalho em uma consultoria e utilizo React e Vtex
+          (eu to falando grego será? hahah'), mas posso desenvolver conforme a necessidade do cliente também uhulll
+        </div>
+        <div class="body__subtitle"> </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  
+
+
+  <div class="skills1__background">
+    <div class="container">
+      <div class="row skills__flex">
+        <div class="col-sm-12 skills__flex">
+          <div class="skills1_title">SKILLS</div>
+          <div class="skills_text"> Agora vamos para o que interessa: Minhas habilidades!
+            Abaixo vocês poderam ver o que eu manjo, manjo mais o menos, e o que eu menos manjo hahaha
+          </div>
+          <div class="circleflex">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"
