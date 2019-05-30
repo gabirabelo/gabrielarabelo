@@ -53,8 +53,8 @@ body {
 #menu {
     background: rgb(240, 255, 23);
     position: fixed;
-    width: 4%;
-    height: 100vh;
+    width: 100%;
+    height: 50px;
     z-index: 1030;
 
 }
@@ -72,7 +72,7 @@ body {
 }
 
 .imagem {
-    width: 230px;
+    width: 255px;
 
 }
 
@@ -100,9 +100,9 @@ body {
     font-size: 10px;
 }
 
-.container {
+/* .container {
     padding: 60px 0px;
-}
+} */
 
 
 /* /////////////////// */
@@ -138,6 +138,9 @@ body {
 .circleflex{
     display: flex;
     margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;''
 }
 
 .circle{
@@ -153,6 +156,25 @@ body {
     text-align: center;
     width: 80%;
 }
+
+.container_flex{
+    padding: 60px 0px;
+}
+
+.circle img{
+    width: 100%;
+    padding: 7px;
+}
+
+.cssimg{ 
+    padding: 7px 16px !important;
+}
+
+
+.vtex{
+    padding: 16px 7px !important;
+}
+
 
 
 
