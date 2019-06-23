@@ -11,7 +11,8 @@
   <!-- Bootstrap -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-
+  <script src="js/effect.js"></script>
+  <link rel="icon" href="img/favicon.png"/>
   <link href="https://fonts.googleapis.com/css?family=Unica+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
@@ -19,40 +20,20 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Shadows+Into+Light&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cute+Font|Handlee|Parisienne&display=swap" rel="stylesheet">
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-
-  <script type="text/javascript">
-    $(function () {
-      $(window).on("scroll", function () {
-        if ($(window).scrollTop() > 380) {
-          $("#menu").addClass("menu-d");
-        } else {
-          $("#menu").removeClass("menu-d");
-        }
-      });
-    });
-  </script>
-
-
-
 </head>
 
 <body>
-  <div id="menu">
 
-  </div>
-  <div class="header">
-    <div class="header__title">
-      <div class="header__title--name"> gabriela rabelo </div>
-      <div class="header__title--dev">Desenvolvedora Front-End</div>
-    </div>
-  </div>
+
+  <header>
+      <div class="hello" id="hello">
+          <div class="header__title">
+            <div class="header__title--name"> gabriela rabelo </div>
+            <div class="header__title--dev">Desenvolvedora Front-End</div>
+          </div>
+        </div>
+        <div id="overlay" class="overlay"></div>
+  </header>
 
 
   <div class="container about-mobile">
@@ -75,7 +56,8 @@
     <div class="row ">
       <div class="col-sm-12 flex__col">
         <div class="body__title"> O QUE EU FAÇO?</div>
-        <div  class="text_mobile">Hoje sou Desenvolvedora Jr, focada 100% em Front-End, trabalho em uma consultoria e utilizo React e Vtex
+        <div class="text_mobile">Hoje sou Desenvolvedora Jr, focada 100% em Front-End, trabalho em uma consultoria e
+          utilizo React e Vtex
           (eu to falando grego será? hahah'), mas posso desenvolver conforme a necessidade do cliente também uhulll
         </div>
         <div class="body__subtitle"> </div>
