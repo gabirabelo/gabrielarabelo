@@ -3,8 +3,6 @@ body {
     padding: 0px;
     color: #313131;
     font-family: 'Comfortaa', cursive;
-
-
 }
 
 .header {
@@ -14,6 +12,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header__title {
@@ -175,7 +175,41 @@ body {
     padding: 16px 7px !important;
 }
 
+.about-mobile{
+    display: none;
+}
 
+@media (max-width: 769px) 
+{
+    .circleflex{
+        flex-direction: column;
+    }
+    .about-desktop{
+        display: none;
+    }
+    .about-mobile{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .imagem{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .imagem img{
+        width: 45%;
+        border-radius: 100px;
+    }
+    .body__title{
+        text-align: center;
+    }
+    .text_mobile{
+        text-align: center;
+    }
+}
 
 
 
